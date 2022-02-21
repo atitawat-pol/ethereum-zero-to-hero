@@ -1,0 +1,12 @@
+total gas fee = total gas cost x gwei
+
+gas cost is complexity of smartcontract
+gwer is user define value
+
+If you pay low gwei than others. Your transaction will suspend to the next block.
+
+There are Gas cost limited per block (900,000).
+
+Let's say Ether cannot process every transcation in one block.
+
+Miners always pick the most gwei.

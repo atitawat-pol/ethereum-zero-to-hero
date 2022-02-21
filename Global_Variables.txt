@@ -1,0 +1,9 @@
+variables that can be called when running smartcontract.
+
+block.blockchash(uint blockNumber) returns (bytes32): hash of the given block - only works for the 256 most recent blocks excluding current.
+block.coinbase (address): current block miner's address
+block.difficulty (uint): current block difficulty
+block.gaslimit (uint): current block gaslimit 8-10 M. per block (dynamic value)
+block.number (uint): current block number
+block.timestamp (uint): current block timestamp as seconds since unix epoch
+now (uint): current block timestamp (alias for block.timestamp)
